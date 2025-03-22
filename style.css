@@ -17,7 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 14px;
+  font-size: 18px;
 }
 @media(max-width:768px){
     .title{
@@ -62,6 +62,15 @@ background-size: cover;
 @media(max-width:768px){
     main{
         height: 67vh;
+        padding-top: 95px;
+
+    }
+    h1 {
+      font-size: 20vw;
+      font-weight: bold;
+      line-height: 0.85;
+      color: #fff;
+      font-weight: 700;
     }
 }
 h1 {
@@ -234,7 +243,7 @@ h2 {
 @media (max-width: 768px) {
     .button-52 {
       padding: 15px 20px 0px;
-      font-size: 9px;
+      font-size: 13px;
       margin-right: 10px;
 
     }
